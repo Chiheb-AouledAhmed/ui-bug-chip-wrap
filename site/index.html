@@ -3,31 +3,34 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Remote Jobs — Filters</title>
+<title>Loopline</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="topbar">
-  <div class="brand">HireLoop</div>
-  <nav class="nav"><a href="#">Jobs</a><a href="#">Companies</a></nav>
+  <div class="brand">Loopline</div>
+  <nav class="nav">
+    <a href="#">Docs</a>
+    <a href="#">Changelog <span class="badge badge-new">NEW</span></a>
+  </nav>
 </header>
-<main class="content">
-  <h1>Open Positions</h1>
-  <div class="chip-row" id="chip-row">
-    <button class="chip active">Remote</button>
-    <button class="chip">Full-time</button>
-    <button class="chip">React</button>
-    <button class="chip">TypeScript</button>
-    <button class="chip">Node.js</button>
-    <button class="chip">Senior</button>
-    <button class="chip">US-based</button>
+<main class="layout">
+  <div class="content">
+    <div class="card">
+      <h2>Workflow Automations <span class="badge badge-new">NEW</span></h2>
+      <p>Chain actions together without writing code.</p>
+    </div>
   </div>
-  <ul class="job-list">
-    <li>Frontend Engineer — Acme Corp</li>
-    <li>Backend Engineer — Nimbus Data</li>
-    <li>Full-stack Developer — Loop Systems</li>
-  </ul>
+  <aside class="sidebar">
+    <h3>Recently added</h3>
+    <ul>
+      <li>Dark mode <span class="badge badge-new-old">NEW</span></li>
+      <li>Slack integration</li>
+    </ul>
+  </aside>
 </main>
-<script src="script.js"></script>
+<footer class="footer">
+  <a href="#">What's new <span class="badge badge-new-old">NEW</span></a>
+</footer>
 </body>
 </html>
